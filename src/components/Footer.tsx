@@ -46,12 +46,12 @@ export default function Footer() {
             <ul className="space-y-2 text-white/70">
               <li>
                 <a href="tel:+447700900000" className="hover:text-cyan-400 transition-colors duration-300">
-                  +44 7700 900000
+                  +44 7446095099
                 </a>
               </li>
               <li>
                 <a href="mailto:info@prodrive.com" className="hover:text-cyan-400 transition-colors duration-300">
-                  info@prodrive.com
+                  info@smdrivingschool.com
                 </a>
               </li>
             </ul>

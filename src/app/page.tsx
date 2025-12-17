@@ -3,12 +3,12 @@ import Services from '@/components/Services'
 import Testimonials from '@/components/Testimonials'
 
 export const metadata = {
-  title: 'ProDrive Academy | Professional Driving Instruction',
+  title: 'SM Driving School | Professional Driving Instruction',
   description: 'Expert driving lessons in London. High pass rates, flexible scheduling.',
   keywords: 'driving instructor, driving lessons, test preparation, London',
   openGraph: {
-    title: 'ProDrive Academy',
-    description: 'Professional driving instruction with 15+ years experience',
+    title: 'SM Driving School',
+    description: 'Professional driving instruction with 5+ years experience',
     type: 'website',
   },
 }

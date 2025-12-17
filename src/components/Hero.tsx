@@ -17,7 +17,7 @@ export default function Hero() {
         {/* Left */}
         <div>
           <span className="inline-block mb-6 rounded-full border border-white/20 px-4 py-1 text-sm tracking-wide text-white/80">
-            DVSA Approved Trainee Driving Instructor
+            DVSA Approved Driving Instructor
           </span>
 
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
@@ -71,7 +71,7 @@ export default function Hero() {
               </li>
               <li className="flex items-center gap-3">
                 <span className="h-2 w-2 rounded-full bg-cyan-300" />
-                Manual & automatic lessons
+                Manual lessons
               </li>
             </ul>
           </div>

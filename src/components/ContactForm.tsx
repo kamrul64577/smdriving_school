@@ -150,22 +150,22 @@ export default function ContactForm() {
         <div className="text-center">
           <div className="text-4xl mb-2">📱</div>
           <h4 className="font-bold mb-1">WhatsApp</h4>
-          <a href="https://wa.me/447700900000" className="link link-primary">
-            +44 7700 900000
+          <a href="https://wa.me/+447446095099" className="link link-primary">
+          +447446095099
           </a>
         </div>
         <div className="text-center">
           <div className="text-4xl mb-2">☎️</div>
           <h4 className="font-bold mb-1">Call Us</h4>
-          <a href="tel:+447700900000" className="link link-primary">
-            +44 7700 900000
+          <a href="tel:+447446095099" className="link link-primary">
+          +44 7446095099
           </a>
         </div>
         <div className="text-center">
           <div className="text-4xl mb-2">✉️</div>
           <h4 className="font-bold mb-1">Email</h4>
-          <a href="mailto:info@prodrive.com" className="link link-primary">
-            info@prodrive.com
+          <a href="mailto:shiraj77@hotmail.co.uk" className="link link-primary">
+            shiraj77@hotmail.co.uk
           </a>
         </div>
       </div>
