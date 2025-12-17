@@ -17,7 +17,7 @@ export default function Hero() {
         {/* Left */}
         <div>
           <span className="inline-block mb-6 rounded-full border border-white/20 px-4 py-1 text-sm tracking-wide text-white/80">
-            DVSA Approved Driving Instructor
+            DVSA Approved Trainee Driving Instructor
           </span>
 
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
