@@ -3,34 +3,28 @@
 export default function Testimonials() {
   const testimonials = [
     {
-      name: 'Sarah Johnson',
-      role: 'First Attempt Pass',
+      name: 'Md Kamrul Islam',
+      role: 'Weekly Intensive Package',
       content:
-        "John's teaching style is excellent. He identified my weak areas immediately and focused on them. Passed my test first time!",
+        'I chose the weekly package and it really helped me improve quickly. The lessons were clear, calm, and well structured. Each week I felt more confident on the road, and my driving skills improved a lot in a short time.',
       rating: 5,
     },
     {
-      name: 'Michael Chen',
-      role: 'Nervous Driver',
+      name: 'Muhseen Ali',
+      role: 'Extended Driving Lesson',
       content:
-        'I was very anxious about driving. John made me feel comfortable and confident. Best investment I made!',
+        'Very friendly and professional instructor. He explained everything clearly and was always patient, even when I made mistakes. I felt comfortable during lessons and learned at my own pace.',
       rating: 5,
     },
     {
-      name: 'Emma Wilson',
-      role: 'Test Preparation',
+      name: 'Mariam Begum',
+      role: 'Extended Driving Lesson',
       content:
-        'The intensive package was perfect. 5 lessons a week really accelerated my progress. Highly recommended!',
+        'I was quite nervous at the beginning, but the teaching style made me feel relaxed and confident. The lessons were easy to understand and well planned. I would definitely recommend these driving lessons.',
       rating: 5,
     },
-    {
-      name: 'David Martinez',
-      role: 'Advanced Training',
-      content:
-        "After years of nervous driving, John's advanced training transformed my confidence on motorways.",
-      rating: 5,
-    },
-  ]
+  ];
+  
 
   return (
     <section className="py-20 bg-[#0b1120] text-white relative overflow-hidden">
@@ -46,7 +40,7 @@ export default function Testimonials() {
             What Students Say
           </h2>
           <p className="text-xl text-white/60">
-            Trusted by hundreds of satisfied learners
+          Trusted by learners who value patient, professional teaching
           </p>
         </div>
 

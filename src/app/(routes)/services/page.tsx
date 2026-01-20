@@ -8,33 +8,44 @@ export const metadata = {
 export default function ServicesPage() {
     const services = [
         {
-            category: 'Beginner Package',
-            description: 'Perfect for new drivers starting from scratch',
-            price: '£30/hour',
-            features: ['Basic controls', 'Road awareness', 'Traffic rules', 'Confidence building'],
+            category: 'Pay As You Go (1 Hour)',
+            description: 'Flexible single lesson ideal for steady progress',
+            price: '£35 / hour',
+            features: [
+                '1 x 60-minute lesson',
+                'Suitable for beginners & intermediate learners',
+                'Car and fuel included',
+                'Patient, DVSA-focused instruction',
+            ],
         },
         {
-            category: 'Test Preparation',
-            description: 'Intensive preparation for your DVSA test',
-            price: '£35/hour',
-            features: ['Mock tests', 'Problem areas focus', 'Test techniques', 'Last-minute tips'],
+            category: 'Extended Lesson (2 Hours)',
+            description: 'Best value for faster improvement and confidence building',
+            price: '£65 / 2 hours',
+            features: [
+                '1 x 120-minute lesson',
+                'More road time and practice',
+                'Ideal for exam preparation',
+                'Better continuity and skill retention',
+            ],
         },
         {
-            category: 'Advanced Training',
-            description: 'Motorway and advanced driving skills',
-            price: '£40/hour',
-            features: ['Motorway driving', 'Defensive techniques', 'Adverse weather', 'Night driving'],
+            category: 'Weekly Intensive Package',
+            description: 'Perfect for learners aiming to pass quickly',
+            price: '£150 / week',
+            features: [
+                '5 x 1-hour lessons per week',
+                'Discounted package rate',
+                'Priority booking',
+                'Structured learning plan',
+                'Progress tracking toward test readiness',
+            ],
         },
-        {
-            category: 'Intensive Package',
-            description: '5 lessons per week for faster progress',
-            price: '£150/week',
-            features: ['5 x 1-hour lessons', 'Discounted rate', 'Priority booking', 'Progress tracking'],
-        },
-    ]
+    ];
+
 
     return (
-        <div className="relative bg-[#0b1120] text-white min-h-screen overflow-hidden">
+        <div className="relative bg-[#0b1120] text-white pt-14 min-h-screen overflow-hidden">
             {/* Background Glows */}
             <div className="absolute inset-0 -z-10">
                 <div className="absolute -top-60 -left-40 w-[600px] h-[600px] bg-blue-600/20 rounded-full blur-[160px]" />
@@ -87,13 +98,36 @@ export default function ServicesPage() {
                     <div className="absolute -top-12 -left-12 w-40 h-40 bg-blue-600/20 rounded-full blur-3xl -z-10"></div>
                     <div className="absolute -bottom-12 -right-12 w-40 h-40 bg-cyan-400/20 rounded-full blur-3xl -z-10"></div>
 
-                    <h3 className="text-3xl font-bold mb-8 text-white text-center">Additional Services</h3>
+                    <h3 className="text-3xl font-bold mb-8 text-white text-center">
+                        Additional Support Services
+                    </h3>
+
                     <div className="grid md:grid-cols-2 gap-8">
                         {[
-                            { icon: '🚗', title: 'Manual Transmission Training', price: '£35/hour', desc: 'Master clutch control' },
-                            { icon: '🔄', title: 'Refresher Lessons', price: '£32/hour', desc: 'Get back to driving' },
-                            { icon: '🛣️', title: 'Motorway Tuition', price: '£40/hour', desc: 'Advanced highway skills' },
-                            { icon: '🌧️', title: 'All-Weather Training', price: '£38/hour', desc: 'Challenging conditions' },
+                            {
+                                icon: '🚗',
+                                title: 'Beginner Confidence Lessons',
+                                price: 'Included',
+                                desc: 'Extra focus on steering, clutch control, and moving off safely',
+                            },
+                            {
+                                icon: '🧠',
+                                title: 'Nervous Driver Support',
+                                price: 'Included',
+                                desc: 'Calm, patient lessons for anxious or first-time learners',
+                            },
+                            {
+                                icon: '📝',
+                                title: 'Mock Driving Test',
+                                price: '£35 / hour',
+                                desc: 'Realistic test routes with honest feedback',
+                            },
+                            {
+                                icon: '📍',
+                                title: 'Local Test Route Practice',
+                                price: 'Included',
+                                desc: 'Practice around common local exam routes',
+                            },
                         ].map((service, idx) => (
                             <div
                                 key={idx}
@@ -102,12 +136,15 @@ export default function ServicesPage() {
                                 <span className="text-4xl">{service.icon}</span>
                                 <div>
                                     <h4 className="font-bold text-white text-lg">{service.title}</h4>
-                                    <p className="text-white/70">{service.price} - {service.desc}</p>
+                                    <p className="text-white/70">
+                                        {service.price} – {service.desc}
+                                    </p>
                                 </div>
                             </div>
                         ))}
                     </div>
                 </div>
+
             </div>
         </div>
     )

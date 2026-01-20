@@ -1,49 +1,33 @@
 'use client'
 
 import { Service } from '@/types'
+import Link from 'next/link';
 
 const services: Service[] = [
   {
-    id: "1",
-    name: "Beginner Lessons",
-    description: "Structured one-to-one lessons designed for first-time drivers.",
-    price: '£30 / hour',
+    id: '1',
+    name: 'Standard Driving Lesson (1 Hour)',
+    description: 'One-to-one professional driving lesson suitable for all skill levels.',
+    price: '£35 / hour',
   },
   {
     id: '2',
-    name: 'Test Preparation',
-    description: 'Focused mock tests and exam strategies to maximise pass rates.',
-    price: '£35 / hour',
+    name: 'Extended Driving Lesson (2 Hours)',
+    description: 'Longer lesson for faster progress, better confidence, and test readiness.',
+    price: '£65 / 2 hours',
   },
   {
     id: '3',
-    name: 'Advanced Driving',
-    description: 'Motorway driving, defensive techniques, and confidence building.',
-    price: '£40 / hour',
+    name: 'Weekly Intensive Package',
+    description: 'Ideal for learners who want quicker results with regular practice.',
+    price: '£150 / week (5 hours)',
   },
-  {
-    id: '4',
-    name: 'Manual Transmission',
-    description: 'Expert guidance on clutch control and smooth gear changes.',
-    price: '£35 / hour',
-  },
-  {
-    id: '5',
-    name: 'Refresher Course',
-    description: 'Ideal for drivers returning to the road after a break.',
-    price: '£32 / hour',
-  },
-  {
-    id: '6',
-    name: 'Intensive Package',
-    description: 'Accelerated learning with multiple weekly sessions.',
-    price: '£150 / week',
-  },
-]
+];
+
 
 export default function Services() {
   return (
-    <section className="relative bg-[#0b1120] py-28 text-white overflow-hidden">
+    <section className="relative bg-[#0b1120] py-14 text-white overflow-hidden">
       
       {/* Subtle background glow */}
       <div className="absolute inset-0">
@@ -91,7 +75,7 @@ export default function Services() {
                 </span>
 
                 <span className="text-sm text-white/50 group-hover:text-white transition">
-                  Learn more →
+                  <Link href="/services">Learn more →</Link>
                 </span>
               </div>
             </div>

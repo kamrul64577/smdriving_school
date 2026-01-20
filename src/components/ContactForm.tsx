@@ -146,29 +146,7 @@ export default function ContactForm() {
         </button>
       </form>
 
-      <div className="mt-12 grid md:grid-cols-3 gap-6">
-        <div className="text-center">
-          <div className="text-4xl mb-2">📱</div>
-          <h4 className="font-bold mb-1">WhatsApp</h4>
-          <a href="https://wa.me/+447446095099" className="link link-primary">
-          +447446095099
-          </a>
-        </div>
-        <div className="text-center">
-          <div className="text-4xl mb-2">☎️</div>
-          <h4 className="font-bold mb-1">Call Us</h4>
-          <a href="tel:+447446095099" className="link link-primary">
-          +44 7446095099
-          </a>
-        </div>
-        <div className="text-center">
-          <div className="text-4xl mb-2">✉️</div>
-          <h4 className="font-bold mb-1">Email</h4>
-          <a href="mailto:shiraj77@hotmail.co.uk" className="link link-primary">
-            shiraj77@hotmail.co.uk
-          </a>
-        </div>
-      </div>
+    
     </div>
   )
 }
