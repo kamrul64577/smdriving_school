@@ -132,10 +132,10 @@ export default function ServicesPage() {
                         ].map((service, idx) => (
                             <div
                                 key={idx}
-                                className="flex items-start sm:items-center gap-4 bg-white/5 p-4 sm:p-6 rounded-2xl border border-white/10 backdrop-blur-md hover:scale-105 transition-transform duration-300"
+                                className="flex flex-col sm:flex-row items-center sm:items-start gap-4 bg-white/5 p-4 sm:p-6 rounded-2xl border border-white/10 backdrop-blur-md hover:scale-105 transition-transform duration-300"
                             >
-                                <span className="text-3xl sm:text-4xl">{service.icon}</span>
-                                <div>
+                                <span className="text-4xl">{service.icon}</span>
+                                <div className="text-center sm:text-left">
                                     <h4 className="font-bold text-white text-lg sm:text-xl">{service.title}</h4>
                                     <p className="text-white/70 text-sm sm:text-base">
                                         {service.price} – {service.desc}
@@ -145,6 +145,7 @@ export default function ServicesPage() {
                         ))}
                     </div>
                 </div>
+
 
 
             </div>
