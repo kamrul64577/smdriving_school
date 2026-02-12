@@ -94,15 +94,16 @@ export default function ServicesPage() {
                 </div>
 
                 {/* Additional Services */}
-                <div className="relative bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-10 shadow-2xl overflow-hidden">
-                    <div className="absolute -top-12 -left-12 w-40 h-40 bg-blue-600/20 rounded-full blur-3xl -z-10"></div>
-                    <div className="absolute -bottom-12 -right-12 w-40 h-40 bg-cyan-400/20 rounded-full blur-3xl -z-10"></div>
+                <div className="relative bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-6 sm:p-8 md:p-10 shadow-2xl overflow-hidden">
+                    {/* Background circles */}
+                    <div className="absolute -top-12 -left-12 w-32 h-32 sm:w-40 sm:h-40 bg-blue-600/20 rounded-full blur-3xl -z-10"></div>
+                    <div className="absolute -bottom-12 -right-12 w-32 h-32 sm:w-40 sm:h-40 bg-cyan-400/20 rounded-full blur-3xl -z-10"></div>
 
-                    <h3 className="text-3xl font-bold mb-8 text-white text-center">
+                    <h3 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8 text-white text-center">
                         Additional Support Services
                     </h3>
 
-                    <div className="grid md:grid-cols-2 gap-8">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
                         {[
                             {
                                 icon: '🚗',
@@ -131,12 +132,12 @@ export default function ServicesPage() {
                         ].map((service, idx) => (
                             <div
                                 key={idx}
-                                className="flex items-center gap-4 bg-white/5 p-6 rounded-2xl border border-white/10 backdrop-blur-md hover:scale-105 transition-transform duration-300"
+                                className="flex items-start sm:items-center gap-4 bg-white/5 p-4 sm:p-6 rounded-2xl border border-white/10 backdrop-blur-md hover:scale-105 transition-transform duration-300"
                             >
-                                <span className="text-4xl">{service.icon}</span>
+                                <span className="text-3xl sm:text-4xl">{service.icon}</span>
                                 <div>
-                                    <h4 className="font-bold text-white text-lg">{service.title}</h4>
-                                    <p className="text-white/70">
+                                    <h4 className="font-bold text-white text-lg sm:text-xl">{service.title}</h4>
+                                    <p className="text-white/70 text-sm sm:text-base">
                                         {service.price} – {service.desc}
                                     </p>
                                 </div>
@@ -144,6 +145,7 @@ export default function ServicesPage() {
                         ))}
                     </div>
                 </div>
+
 
             </div>
         </div>
