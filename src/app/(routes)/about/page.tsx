@@ -19,7 +19,7 @@ export const metadata = {
               About Your Instructor
             </h1>
             <p className="text-white/70 text-lg max-w-2xl mx-auto">
-              Meet our experienced instructors at SM Driving School, with over 15 years of expertise, helping hundreds of students pass with confidence.
+            A dedicated, fully qualified driving instructor committed to helping you become a safe, skilled, and confident driver.
             </p>
           </div>
   
@@ -31,7 +31,7 @@ export const metadata = {
               <div className="text-6xl mb-6 text-center">👨‍🏫</div>
               <h2 className="text-3xl font-bold mb-4 text-white text-center">Meet Shiraj Ali</h2>
               <p className="text-white/70 text-center">
-                With over 15 years of professional driving instruction experience, John has helped over 500 students pass their driving tests at SM Driving School.
+              Passionate about teaching and focused on your success, offering patient guidance and structured lessons every step of the way.
               </p>
             </div>
   
@@ -41,7 +41,7 @@ export const metadata = {
               <h3 className="text-2xl font-bold mb-6 text-white">Qualifications & Certifications</h3>
               <ul className="space-y-5">
                 {[
-                  { title: 'ADI Approved Instructor', desc: 'Registered with the DVSA' },
+                  { title: 'DVSA Approved Instructor', desc: 'Registered with the DVSA' },
                   { title: 'Enhanced DBS Checked', desc: 'Full background verification' },
                   { title: 'First Aid Certified', desc: 'Current certification maintained' },
                   { title: 'Defensive Driving Expert', desc: 'Advanced training techniques' },

@@ -155,28 +155,7 @@ export default function AreasCoverage() {
           ))}
         </div>
 
-        {/* Stats Section */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 py-12">
-          {[
-            { label: 'Areas Covered', value: '15+' },
-            { label: 'Happy Students', value: '2000+' },
-            { label: 'Certified Instructors', value: '25+' },
-            { label: 'Years Experience', value: '10+' },
-          ].map((stat, idx) => (
-            <div
-              key={idx}
-              className="group relative bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-6 text-center hover:bg-white/20 transition-all"
-            >
-              <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-cyan-500/10 to-blue-500/10 opacity-0 group-hover:opacity-100 transition-opacity" />
-              <div className="relative">
-                <p className="text-3xl md:text-4xl font-black bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent mb-2">
-                  {stat.value}
-                </p>
-                <p className="text-white/70 font-semibold text-sm md:text-base">{stat.label}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+ 
 
         {/* Why Choose Us */}
         <div className="relative py-12">

@@ -51,7 +51,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="mailto:info@prodrive.com" className="hover:text-cyan-400 transition-colors duration-300">
-                  info@smdrivingschool.com
+                  shiraj.ali1977@gmail.com
                 </a>
               </li>
             </ul>
@@ -63,7 +63,6 @@ export default function Footer() {
             <div className="flex gap-4 text-white/70">
               <a href="#" className="hover:text-cyan-400 transition-colors duration-300">Facebook</a>
               <a href="#" className="hover:text-cyan-400 transition-colors duration-300">Instagram</a>
-              <a href="#" className="hover:text-cyan-400 transition-colors duration-300">Twitter</a>
             </div>
           </div>
         </div>
